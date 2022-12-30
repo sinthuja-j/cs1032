@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<!--Document By: Sinthuja Jeevarajhan (SJEEVAR)- 251241418-->
+<!--Date Completed: Feb 31, 2022-->
+
+    <MovieList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="SJEEVAR_movies.xsd">
+        <MovieData entry="new">    <!--complex-->   
+        <MovieID>movONE</MovieID>  <!--complex-->  
+        <MovieTitle>Colossus: The Forbin Project</MovieTitle> <!--simple-->  
+        <MovieGenre>Science Fiction</MovieGenre> <!--simple--> 
+        <MovieYear>1970</MovieYear> <!--simple--> 
+        <MovieDirector>Joseph Sargent</MovieDirector> <!--simple--> 
+        <MovieSynopsis>Thinking this will prevent war, the US government gives an impenetrable supercomputer total control over launching nuclear missiles. But what the computer does with the power is unimaginable to its creators</MovieSynopsis> <!--simple--> 
+        <MovieStarList> <!--complex-->  
+            <MovieStar> <!--complex-->  
+             <MovieStarID>moviestarIDthree</MovieStarID> <!--simple--> 
+             <Star_LastName>Braeden</Star_LastName> <!--simple--> 
+             <Star_FirstName>Eric</Star_FirstName> <!--simple--> 
+             <Star_MovieIDAssoc>movONE</Star_MovieIDAssoc> <!--simple--> 
+            </MovieStar>
+            <MovieStar> <!--complex-->  
+             <MovieStarID>moviestarIDtwo</MovieStarID> <!--simple--> 
+             <Star_LastName>Clarck</Star_LastName> <!--simple--> 
+             <Star_FirstName>Susan</Star_FirstName> <!--simple--> 
+             <Star_MovieIDAssoc>movONE</Star_MovieIDAssoc> <!--simple--> 
+            </MovieStar>
+            <MovieStar> <!--complex-->  
+             <MovieStarID>moviestarIDone</MovieStarID> <!--simple--> 
+             <Star_LastName>Pinset</Star_LastName> <!--simple--> 
+             <Star_FirstName>Gordon</Star_FirstName> <!--simple--> 
+             <Star_MovieIDAssoc>movONE</Star_MovieIDAssoc> <!--simple--> 
+            </MovieStar>
+        </MovieStarList> 
+         
+        <MovieWriterList> <!--complex-->  
+            <MovieWriter> <!--complex-->  
+            <WriterID>1</WriterID> <!--simple--> 
+            <Writer_LastName>Bridges</Writer_LastName> <!--simple--> 
+            <Writer_FirstName>James</Writer_FirstName> <!--simple--> 
+            <Union>NWGA</Union> <!--simple--> 
+            <Writer_MovieIDAssoc>movONE</Writer_MovieIDAssoc> <!--simple--> 
+            </MovieWriter>
+            <MovieWriter> <!--complex-->  
+            <WriterID>2</WriterID> <!--simple--> 
+            <Writer_LastName>Jones</Writer_LastName> <!--simple--> 
+            <Writer_FirstName>D.F.</Writer_FirstName> <!--simple--> 
+            <Writer_MovieIDAssoc>movONE</Writer_MovieIDAssoc> <!--simple--> 
+            </MovieWriter>
+        </MovieWriterList>
+         
+       <MovieRating>9.4</MovieRating> <!--simple--> 
+       <MovieRecommended>1</MovieRecommended> <!--simple--> 
+       <MovieSubmissonBy>Max Magguilli</MovieSubmissonBy> <!--simple--> 
+    </MovieData>
+    
+    <MovieData entry="existing">    <!--complex-->   
+        <MovieID>movTWO</MovieID>  <!--complex-->  
+        <MovieTitle>Fantastic Voyage</MovieTitle> <!--simple-->  
+        <MovieGenre>Science Fiction</MovieGenre> <!--simple--> 
+        <MovieYear>1966</MovieYear> <!--simple--> 
+        <MovieDirector>Richard Fleischer</MovieDirector> <!--simple--> 
+        <MovieSynopsis>A scientist is nearly assassinated. In order to save him, a submarine is shrunken to microscopic size and injected into his bloodstream with a small crew. Problems arise almost as soon as they enter it.</MovieSynopsis> <!--simple--> 
+        <MovieStarList> <!--complex-->  
+            <MovieStar> <!--complex-->  
+             <MovieStarID>moviestarIDfour</MovieStarID> <!--simple--> 
+             <Star_LastName>Boyd</Star_LastName> <!--simple--> 
+             <Star_FirstName>Stephen</Star_FirstName> <!--simple--> 
+             <Star_MovieIDAssoc>movTWO</Star_MovieIDAssoc> <!--simple--> 
+            </MovieStar>
+            <MovieStar> <!--complex-->  
+             <MovieStarID>moviestarIDfive</MovieStarID> <!--simple--> 
+             <Star_LastName>Welch</Star_LastName> <!--simple--> 
+             <Star_FirstName>Raquel</Star_FirstName> <!--simple--> 
+             <Star_MovieIDAssoc>movTWO</Star_MovieIDAssoc> <!--simple--> 
+            </MovieStar>
+            <MovieStar> <!--complex-->  
+             <MovieStarID>moviestarIDsix</MovieStarID> <!--simple--> 
+             <Star_LastName>O&apos;Connell</Star_LastName> <!--simple--> 
+             <Star_FirstName>Arthur</Star_FirstName> <!--simple--> 
+             <Star_MovieIDAssoc>movTWO</Star_MovieIDAssoc> <!--simple--> 
+            </MovieStar>
+        </MovieStarList> 
+         
+        <MovieWriterList> <!--complex-->  
+            <MovieWriter> <!--complex-->  
+            <WriterID>3</WriterID> <!--simple--> 
+            <Writer_LastName>Kleiner</Writer_LastName> <!--simple--> 
+            <Writer_FirstName>Harry</Writer_FirstName> <!--simple--> 
+            <Union>S.W.G. &amp; A.</Union> <!--simple--> 
+            <Writer_MovieIDAssoc>movTWO</Writer_MovieIDAssoc> <!--simple--> 
+            </MovieWriter>
+            <MovieWriter> <!--complex-->  
+            <WriterID>4</WriterID> <!--simple--> 
+            <Writer_LastName>Duncan</Writer_LastName> <!--simple--> 
+            <Writer_FirstName>David</Writer_FirstName> <!--simple--> 
+            <Writer_MovieIDAssoc>movTWO</Writer_MovieIDAssoc> <!--simple--> 
+            </MovieWriter>
+        </MovieWriterList>
+         
+       <MovieRating>9.65</MovieRating> <!--simple--> 
+       <MovieRecommended>1</MovieRecommended> <!--simple--> 
+       <MovieSubmissonBy>Nancy Zima</MovieSubmissonBy> <!--simple--> 
+    </MovieData>
+         <MovieData entry="existing">    <!--complex-->   
+        <MovieID>movTHREE</MovieID>  <!--complex-->  
+        <MovieTitle>Godfater &quot;Part1&quot;</MovieTitle> <!--simple-->  
+        <MovieGenre>Crime Drama</MovieGenre> <!--simple--> 
+        <MovieYear>1972</MovieYear> <!--simple--> 
+        <MovieDirector>Francis Ford Coppala</MovieDirector> <!--simple--> 
+        <MovieSynopsis>The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.</MovieSynopsis> <!--simple--> 
+        <MovieStarList> <!--complex-->  
+            <MovieStar> <!--complex-->  
+             <MovieStarID>moviestarIDseven</MovieStarID> <!--simple--> 
+             <Star_LastName>Brando</Star_LastName> <!--simple--> 
+             <Star_FirstName>Marlon</Star_FirstName> <!--simple--> 
+             <Star_MovieIDAssoc>movTHREE</Star_MovieIDAssoc> <!--simple--> 
+            </MovieStar>
+            <MovieStar> <!--complex-->  
+             <MovieStarID>moviestarIDeight</MovieStarID> <!--simple--> 
+             <Star_LastName>Pacino</Star_LastName> <!--simple--> 
+             <Star_FirstName>Al</Star_FirstName> <!--simple--> 
+             <Star_MovieIDAssoc>movTHREE</Star_MovieIDAssoc> <!--simple--> 
+            </MovieStar>
+            <MovieStar> <!--complex-->  
+             <MovieStarID>moviestarIDnine</MovieStarID> <!--simple--> 
+             <Star_LastName>Caan</Star_LastName> <!--simple--> 
+             <Star_FirstName>James</Star_FirstName> <!--simple--> 
+             <Star_MovieIDAssoc>movTHREE</Star_MovieIDAssoc> <!--simple--> 
+            </MovieStar>
+        </MovieStarList> 
+         
+        <MovieWriterList> <!--complex-->  
+            <MovieWriter> <!--complex-->  
+            <WriterID>5</WriterID> <!--simple--> 
+            <Writer_LastName>Puzo</Writer_LastName> <!--simple--> 
+            <Writer_FirstName>Mario</Writer_FirstName> <!--simple--> 
+            <Union>NWGA</Union> <!--simple--> 
+            <Writer_MovieIDAssoc>movTHREE</Writer_MovieIDAssoc> <!--simple--> 
+            </MovieWriter>
+        </MovieWriterList>
+         
+       <MovieRating>9</MovieRating> <!--simple--> 
+       <MovieRecommended>1</MovieRecommended> <!--simple--> 
+       <MovieSubmissonBy>Max Magguilli</MovieSubmissonBy> <!--simple--> 
+    </MovieData>
+        
+    <MovieData entry="new">    <!--complex-->   
+        <MovieID>movFOUR</MovieID>  <!--complex-->  
+        <MovieTitle>Mean Girls</MovieTitle> <!--simple-->  
+        <MovieGenre>Comedy</MovieGenre> <!--simple--> 
+        <MovieYear>2004</MovieYear> <!--simple--> 
+        <MovieDirector>Mark Waters</MovieDirector> <!--simple--> 
+        <MovieSynopsis>Teenage Cady Heron (Lindsay Lohan) was educated in Africa by her scientist parents. When her family moves to the suburbs of Illinois, Cady finally gets to experience public school and gets a quick primer on the cruel, tacit laws of popularity that divide her fellow students into tightly knit cliques. She unwittingly finds herself in the good graces of an elite group of cool students dubbed "the Plastics," but Cady soon realizes how her shallow group of new friends earned this nickname.</MovieSynopsis> <!--simple--> 
+        <MovieStarList> <!--complex-->  
+            <MovieStar> <!--complex-->  
+             <MovieStarID>moviestarIDten</MovieStarID> <!--simple--> 
+             <Star_LastName>Lohan</Star_LastName> <!--simple--> 
+             <Star_FirstName>Lindsay</Star_FirstName> <!--simple--> 
+             <Star_MovieIDAssoc>movFOUR</Star_MovieIDAssoc> <!--simple--> 
+            </MovieStar>
+            <MovieStar> <!--complex-->  
+             <MovieStarID>moviestarIDeleven</MovieStarID> <!--simple--> 
+             <Star_LastName>McAdams</Star_LastName> <!--simple--> 
+             <Star_FirstName>Rachel</Star_FirstName> <!--simple--> 
+             <Star_MovieIDAssoc>movFOUR</Star_MovieIDAssoc> <!--simple--> 
+            </MovieStar>
+            <MovieStar> <!--complex-->  
+             <MovieStarID>moviestarIDtwelve</MovieStarID> <!--simple--> 
+             <Star_LastName>Seyfried</Star_LastName> <!--simple--> 
+             <Star_FirstName>Amanda</Star_FirstName> <!--simple--> 
+             <Star_MovieIDAssoc>movFOUR</Star_MovieIDAssoc> <!--simple--> 
+            </MovieStar>
+            <MovieStar> <!--complex-->  
+             <MovieStarID>moviestarIDthirteen</MovieStarID> <!--simple--> 
+             <Star_LastName>Chabert</Star_LastName> <!--simple--> 
+             <Star_FirstName>Lacey</Star_FirstName> <!--simple--> 
+             <Star_MovieIDAssoc>movFOUR</Star_MovieIDAssoc> <!--simple--> 
+            </MovieStar>
+        </MovieStarList> 
+         
+        <MovieWriterList> <!--complex-->  
+            <MovieWriter> <!--complex-->  
+            <WriterID>6</WriterID> <!--simple--> 
+            <Writer_LastName>Fey</Writer_LastName> <!--simple--> 
+            <Writer_FirstName>Tina</Writer_FirstName> <!--simple--> 
+            <Writer_MovieIDAssoc>movFOUR</Writer_MovieIDAssoc> <!--simple--> 
+            </MovieWriter>
+        </MovieWriterList>
+         
+       <MovieRating>9.7</MovieRating> <!--simple--> 
+       <MovieRecommended>1</MovieRecommended> <!--simple--> 
+       <MovieSubmissonBy>Sinthuja Jeevarajhan</MovieSubmissonBy> <!--simple--> 
+    </MovieData>
+</MovieList>
+
+
