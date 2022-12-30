@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!--Document By: Sinthuja Jeevarajhan (SJEEVAR)- 251241418-->
+<!--Date Completed: Feb 31, 2022-->
+
+<movies:schema xmlns:movies="http://www.w3.org/2001/XMLSchema">
+    <movies:element name="MovieList">
+        <movies:complexType>
+        <movies:sequence>
+            <movies:element name="MovieData" minOccurs= "0" maxOccurs= "unbounded">
+            <movies:complexType>
+            <movies:sequence>
+                <movies:element name="MovieID" type="movies:string"/>
+                <movies:element name="MovieTitle" type="movies:string"/>
+                <movies:element name="MovieGenre" type="movies:string" />
+                <movies:element name="MovieYear" type="movies:integer"/>
+                <movies:element name="MovieDirector" type="movies:string" maxOccurs="1"/>
+                <movies:element name="MovieSynopsis" type="movies:string"/>
+                
+                <movies:element name="MovieStarList">
+                <movies:complexType>
+                <movies:sequence>
+                    <movies:element name="MovieStar" maxOccurs= "unbounded">
+                    <movies:complexType>
+                    <movies:sequence>
+                        <movies:element name="MovieStarID" type="movies:string"/>
+                        <movies:element name="Star_LastName" type="movies:string"/>
+                        <movies:element name="Star_FirstName" type="movies:string"/>
+                        <movies:element name="Star_MovieIDAssoc" type="movies:string"/>
+                
+                    </movies:sequence>
+                    </movies:complexType>
+                    </movies:element>
+                </movies:sequence>
+                </movies:complexType>
+                </movies:element>
+                
+                <movies:element name="MovieWriterList">
+                <movies:complexType>
+                <movies:sequence>
+                    <movies:element name="MovieWriter" maxOccurs= "5">
+                    <movies:complexType>
+                    <movies:sequence>
+                    <movies:element name="WriterID" type="movies:integer"/>
+                    <movies:element name="Writer_LastName" type="movies:string"/>
+                    <movies:element name="Writer_FirstName" type="movies:string"/>
+                    <movies:element name="Union" type="movies:string" minOccurs= "0"/>
+                    <movies:element name="Writer_MovieIDAssoc" type="movies:string"/>
+                    </movies:sequence>
+                    </movies:complexType>
+                    </movies:element>
+                </movies:sequence>
+                </movies:complexType>
+                </movies:element>
+            <movies:element name="MovieRating" type="movies:decimal" minOccurs= "0"/>
+            <movies:element name="MovieRecommended" type="movies:boolean" minOccurs= "0"/>
+            <movies:element name="MovieSubmissonBy" type="movies:string"/>
+            </movies:sequence>
+            <movies:attribute name="entry" type="movies:string" use="optional"/>
+            </movies:complexType>
+            </movies:element>
+            
+            
+            
+        </movies:sequence>
+        </movies:complexType>
+    </movies:element>   
+    
+</movies:schema>
